@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Piquant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/common_max_767.css">
+	<link rel="stylesheet" href="css/common_min_768.css">
+	<link rel="stylesheet" href="css/common_min_959.css">
+	<link rel="stylesheet" href="css/common_min_1200.css">
+	<link rel="stylesheet" href="css/main_max_767.css">
+	<link rel="stylesheet" href="css/main_min_768.css">
+	<link rel="stylesheet" href="css/main_min_959.css">
+	<link rel="stylesheet" href="css/main_min_1200.css">
+	
+	<script>
+     $(function(){
+      $("#bar").click(function(){
+         $("#small_nav").slideToggle();
+        });
+        
+        $(window).resize(function(){
+         if(window.innerWidth>600){
+             $("#small_nav").hide();
+            }
+        });
+     });
+    
+    </script>
+
+</head>
+
+<body>
+
+	<div id="wrap">
+
+		<header>
+			<div id="header">
+				<div id="logo">
+					<a href="main.html" target="_self"><img src="img/logo.png" alt=""></a>
+				</div>
+				
+				<nav id="small">
+                    <div id="smlogo"><a href="main.html" target="_self"><img src="img/logo.png" alt=""></a></div>
+                    <nav id="wide_nav">
+                        <ul>
+							<li>Home</li>
+                            <li><a href="sub.html" target="_self">About Us</a></li>
+                            <li><a href="sub.html" target="_self">Our Menu</a></li>
+                            <li><a href="sub.html" target="_self">Galley</a></li>
+                            <li><a href="sub.html" target="_self">Event</a></li>
+                            <li><a href="sub.html" target="_self">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <i class="fas fa-bars" id="bar"></i>
+                </nav>
+				
+				<nav id="small_nav">
+					<ul>
+						<li>Home</li>
+						<li><a href="sub.html" target="_self">About Us</a></li>
+						<li><a href="sub.html" target="_self">Our Menu</a></li>
+						<li><a href="sub.html" target="_self">Galley</a></li>
+						<li><a href="sub.html" target="_self">Event</a></li>
+						<li><a href="sub.html" target="_self">Contact</a></li>
+					</ul>
+				</nav>
+
+				<div id="header_btn">
+					<span>Call To Reservation</span>
+				</div>
+			</div>
+		</header>
+
+		<div id="slider">
+			<div id="slider_wrap">
+				<div class="slider_text">
+					<h1>Family Restaurant</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+					<span>Book A Table</span>
+					<span>Our Menu</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- our story -->
+		<div id="our_story">
+			<div id="our_wrap">
+				<div class="story_text">
+					<h3>Our Story</h3>
+					<h1>Welcome to Vegan Resturant</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing adipiscing elit.<br><br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing incididunt ut labore et dolore elit.<br><br>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit.</p>
+
+					<span>Read More</span>
+
+				</div>
+
+				<div class="story_img">
+					<img src="img/our1.jpg" alt="" class="our1">
+					<div class="story_img2">
+						<img src="img/our4.jpg" alt="">
+						<img src="img/our3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- video -->
+		<div id="video">
+			<div id="video_wrap">
+				<div id="video_box">
+					<div class="vided_icon">
+						<a href="https://www.youtube.com/watch?v=xg7iNd0qkDM"><img src="img/video_button.svg" alt=""></a>
+						<h1>Intro Video</h1>
+					</div>
+
+					<div class="video_text">
+						<div class="info">
+							<h6>Make Call For Reservations</h6>
+							<h1>Contact Info & Opening Hours</h1>
+						</div>
+						<div class="store">
+							<h3>Store at USA</h3>
+							<p>Email: <a href="#">demo@exmaple.com</a><br>
+								Phone: <a href="#">+080 707 555-321</a><br>
+								526 Melrose Street, 11976 New York</p>
+						</div>
+						<div class="day">
+							<h3>Monday to Saturday</h3>
+							<p>8:00 AM - 10:00 PM<br>
+								Closed Sundays</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- menu -->
+		<div id="our_menu">
+			<div id="menu_wrap">
+
+				<div class="menu_title">
+					<h2>Tasty & Spicy Recipes</h2>
+					<h1>Our Menu</h1>
+				</div>
+
+				<div class="menu">
+					<ul>
+						<li class="menu1"><i class="fas fa-coffee"></i><br>Starter</li>
+						<li><i class="fas fa-utensils"></i>
+							<br>Lunch
+						</li>
+						<li><i class="fas fa-pizza-slice"></i>
+							<br>Dinner
+						</li>
+						<li><i class="fab fa-gulp"></i>
+							<br>Drinks
+						</li>
+						<li><i class="fas fa-ice-cream"></i>
+							<br>Dessert
+						</li>
+					</ul>
+				</div>
+
+				<div class="menu_list">
+
+					<ul>
+						<li><span><a href="#">Scallop shell pies</a></span><span>$12.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Garlic chilli clams</a></span><span>$12.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Brown shrimp Ranhofer</a></span><span>$2.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Sea bream ceviche</a></span><span>$2.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Moules marinière</a></span><span>$12.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Seared tuna tataki</a></span><span>$12.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Smoky salmon</a></span><span>$2.00</span><br>Our passion for the excellent food</li>
+
+						<li><span><a href="#">Green gazpacho</a></span><span>$2.00</span><br>Our passion for the excellent food</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- service -->
+		<div id="service">
+		
+			<div id="service_wrap">
+				<div id="service_back"></div>
+			</div>
+			
+			<div id="service_after">
+				<div id="service_after1">
+
+					<h2>Everything You Find In</h2>
+					<h1>Quality of Service</h1>
+
+					<div id="service_box">
+
+						<div class="service_list">
+							<span class="material-icons">fitness_center</span>
+							<h3>Gold Spa & Fitness Club</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+
+						<div class="service_list">
+							<i class="fas fa-map-marked-alt"></i>
+							<h3>Perfect Location</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+
+						<div class="service_list">
+							<span class="material-icons">fastfood</span>
+							<h3>High Quality Food</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+
+						<div class="service_list">
+							<span class="material-icons">verified_user</span>
+							<h3>Professional And Organized</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+
+						<div class="service_list">
+							<span class="material-icons">apartment</span>
+							<h3>Residence & Accommodation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+
+						<div class="service_list">
+							<span class="material-icons">online_prediction</span>
+							<h3>Extra Facilities</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- blog -->
+		<div id="our_blog">
+			<div id="blog">
+				<h2>Latest News At Vegan</h2>
+				<h1>Our Blog & Event</h1>
+
+				<div id="blog_box">
+					<div class="blog_list">
+						<div class="blog_img">
+							<img src="img/blog-1.jpg" alt="">
+						</div>
+						<div class="blog_text">
+							<h3>Quick and Easy Ginger Beef and Onion Stir Fry</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+							<h6>December 10, 2020</h6>
+							<h6>More Details</h6>
+						</div>
+					</div>
+
+					<div class="blog_list">
+						<div class="blog_img">
+							<img src="img/blog-2.jpg" alt="">
+						</div>
+						<div class="blog_text">
+							<h3>How To Avoid Unexpected Restaurant Expenses</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+							<h6>December 18, 2020</h6>
+							<h6>More Details</h6>
+						</div>
+					</div>
+
+					<div class="blog_list">
+						<div class="blog_img">
+							<img src="img/blog-3.jpg" alt="">
+						</div>
+						<div class="blog_text">
+							<h3>Now Is The Right Time To Offer Take And Bake Pizza</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore veniam dolore.</p>
+							<h6>December 25, 2020</h6>
+							<h6>More Details</h6>
+						</div>
+					</div>
+				</div>
+				<span>View More Blog</span>
+			</div>
+		</div>
+		
+		<!-- banner -->
+		<div id="banner">
+			<div id="banner_wrap">
+				<div class="banner_box">
+					<h3>Voted Best Delicious Lunch</h3>
+					<img src="img/banner1.png" alt="">
+				</div>
+				
+				<div class="banner_box">
+					<h3>Voted Best Night BBQ</h3>
+					<img src="img/banner2.png" alt="">
+				</div>
+				
+				<div class="banner_box">
+					<h3>Voted Best Quality Food</h3>
+					<img src="img/banner3.png" alt="">
+				</div>
+				
+				<div class="banner_box">
+					<h3>Natural Organic Food</h3>
+					<img src="img/banner4.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="map_wrap">
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4247.815247042771!2d-73.9963433279102!3d40.68665435236293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a50fc06dbbf%3A0xce3452a22193ae95!2sVerde%20on%20Smith!5e0!3m2!1sko!2skr!4v1610967432717!5m2!1sko!2skr"></iframe>
+			</div>
+
+			<div id="book">
+				<h2>Vegan Resturant</h2>
+				<h1>Book a Table</h1>
+				
+					<ul>
+						<li><input name="name" type="text" required placeholder="First Name" /></li>
+						<li><input name="name" type="text" required placeholder="Last Name" /></li>
+						<li><input name="email" type="email" required placeholder="Your Email" /></li>
+						<li><input name="tel" type="tel" required placeholder="Your Phone" /></li>
+						<li><textarea rows="4" cols="50" required placeholder="Your Message"></textarea></li>
+						<li><span>Send</span></li>
+					</ul>
+				
+			</div>
+
+
+		</div>
+		
+		<!-- footer -->
+		<footer>
+			<div id="footer">
+				<div class="footer_box">
+					<h1>Our Location</h1><br>
+					<p>526 Melrose Street,<br>
+					Water Mill, 11976 New York</p>
+				</div>
+				<div class="footer_box">
+					<h1>Opening Hours</h1><br>
+					<p>Monday to Saturday<br>
+					8:00 AM - 11:00 PM<br>
+					Closed Sundays</p>
+				</div>
+				<div class="footer_box">
+					<h1>Contact Info</h1><br>
+					<h2>+080 707 555-321</h2>
+					<p>demo@example.com</p>
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-twitter"></i>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<div class="bottom_text">
+					<p>Vegan © 2020 - Designed by Cute Themes.</p>
+					<p>Terms & Conditions | Privacy Policy</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

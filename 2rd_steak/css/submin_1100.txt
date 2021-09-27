@@ -1,0 +1,415 @@
+@chartset "utf-8"
+
+* {margin:0; box-sizing:border-box;}
+ li,ol,ul {list-style:none;}
+
+ .overlay {position:absolute; top: 0; bottom: 0; left: 0; right: 0; background:#000; opacity: .7; height:420px;}
+ #top {width:100%; background-image:url("img/slider.jpg"); height:420px; background-size:cover;}
+ #top > .logo {width:100%; height:60px; display:flex; padding-left:50px; opacity:.8; background:rgb(255,255,255,.05)!important; padding:0 10%;}
+ #top > .logo > h1 > a {font-size:20px; color:#fff; font-family:"Poppins", Arial, sans-serif; text-decoration:none; font-weight:800;}
+ #top > .logo > ul {display:flex; list-style:none; width:100%;  text-decoration:none; text-align:right; height:50px; padding-left:40%; padding-top:20px;}
+ #top > .logo > ul > li {padding:0 2%; text-align:right; font-weight:600;}
+ #top > .logo > ul > li > a {font-family:"Poppins", Arial, sans-serif; font-size:12px; color:#fff; text-decoration:none; text-align:right;}
+ #top > .logo > ul > .nn > a {color:#c8a97e; font-size:12px; text-align:right;}
+ #top > .logo > ul > .mm {width:130px; height:50px; padding:0 10px;}
+ #top > .logo > ul > .mm > a {background-color:#c8a97e; font-size:12px; border-radius:10px; border:1px solid #c8a97e; color:#fff; width:50%; text-align:right; padding:10px;}
+
+ .top2 {color:#fff; opacity:.8; margin-top:50px; font-size:15px; width:100%; height:50px; font-family:"Poppins", Arial, sans-serif; text-align:center; padding:2%; padding-left:15%; width:100%; height:300px;}
+ .top2 > h1 {margin-right:20%}
+ .top2 > .textbox {display:flex; margin-left:37%;}
+ .top2 > .textbox > p {font-family:"Poppins", Arial, sans-serif; font-size:14px; font-weight:600;}
+ .top2 > .textbox > span {font-family:"Poppins", Arial, sans-serif; font-size:14px; color:#c8a97e; font-weight:600;}
+ .top2 > .text > p {font-family:"Poppins", Arial, sans-serif; font-size:14px; width:50%; height:100px; text-align:center; margin-left:15%; padding:2%; font-weight:600;}
+
+ .star > .star1 > h2 {width:100%; height:30px; color:#c8a97e; text-align:center; padding:4%; font-family:'Great Vibes', cursive; font-weight:600; font-size:20px;}
+ .star > .star1 > h3 {width:100%; height:30px; color:#000; text-align:center; font-weight:600; font-size:30px; font-family:"Poppins", Arial, sans-serif;}
+ .star > .starbox {width:5%; border-top:4px double #666; margin-left:47.5%; margin-top:2%; margin-bottom:2%;}
+ .star > p {width:40%; height:100px; font-size:14px; color:#666; margin:30px auto 0px;}
+
+ .wrap2 {width:80%; height:auto; display:flex; justify-content: flex-end; align-content:flex-start; flex-wrap:wrap;}
+ .wrap2 > .part {width:25%; height:2200px; display:flex; flex-wrap:wrap; padding:0 10px;}
+ .wrap2 > .part > .part1 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part1 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part1 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part1 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part2 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part2 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part2 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part2 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part3 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part3 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part3 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part3 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part4 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part4 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part4 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part4 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part5 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part5 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part5 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part5 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+
+.part2 {width:32%; height:auto; margin:0 0 0 3%; display:flex; flex-wrap:wrap;}
+.part2 > .mbox {width:100%; height:20%; display:flex;  flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left;}
+.part2 > .mbox > .box {width:100%; height:40%; background-image:url(img/food2.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:10px 0 0 0px;}
+
+
+.part2 > .mbox2 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left; }
+.part2 > .mbox2 > .box2 {width:100%; height:40%; background-image:url(img/food4.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox2 > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox2 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox2 > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:10px 0 0 0px;}
+.part2 > .mbox3 {width:100%; height:400px; margin:0 1% 9% 3%;}
+.part2 > .mbox3 > .box3 {width:100%; height:45%; background-image:url(img/food3.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox3 > h3 {margin:20px auto 0px; color:#2b474a; }
+.part2 > .mbox3 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox3 > button {width:30%; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:20px 0 0 0px;}
+
+
+.part2 > .mbox4 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left;}
+.part2 > .mbox4 > .box4 {width:100%; height:40%; background-image:url(img/food1.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox4 > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox4 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox4 > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:20px 0 0 0px;}
+
+.wine {width:100%; height:20%; display:flex; justify-content:center; align-content:center; flex-wrap:wrap;}
+.wine > .vbox {width:100%; height:25%; display:flex;}
+.wine > .vbox > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine1.jpg); background-size:60% 100%; width:20%;}
+.wine > .vbox > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox2 {width:100%; height:25%; display:flex;}
+.wine > .vbox2 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine2.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox2 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox2 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox2 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox3 {width:100%; height:25%; display:flex;}
+.wine > .vbox3 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine3.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox3 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox3 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox3 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox4 {width:100%; height:25%; display:flex;}
+.wine > .vbox4 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine4.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox4 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox4 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox4 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+.partbox3 {width:20%; height:1810px; margin:0% 0 0 3%; display:flex; justify-content:center; flex-wrap:wrap; align-content:flex-start; background-color:#333; border-radius:0;}
+.partbox3 > .search {display:flex; flex-flow:row wrap; width:80%; height:80px; align-items:center; justify-content:center; margin:50px auto 0;}
+.partbox3 > .search  input {background-color:#333; border:none; width:75%; height:41px; border-top-left-radius:20px; border-bottom-left-radius:20px; padding:20px; outline:none; border:1px solid #fff;}
+.partbox3 > .search  button {height:41px; width:20%; border-top-right-radius:20px; border-bottom-right-radius:20px; display:block; border:none; cursor:pointer; outline:none; background-color:#333; border:1px solid #fff;}
+.partbox3 > .search  button  img {width:50%; height:50%;}
+.partbox3 > .parson {width:95%; height:400px; display:flex; justify-content:center; flex-wrap:wrap; text-align:center; align-content:flex-start; margin:40px auto 0px; padding:2% 5%;}
+.partbox3 > .parson > .pimg {border-radius:50%; overflow:hidden; height:200px; width:85%;}
+.partbox3 > .parson > .pimg > img {width:100%; height:100%; transform:scale(1.2);}
+.partbox3 > .parson > h3 {color:#fff; font-size:20px; margin:30px auto 0px;}
+.partbox3 > .parson > span {color:#666; width:80%; font-size:15px; letter-spacing:-1px; margin:20px auto 0px;}
+.partbox3 > .parson > p {color:#666; width:90%; font-size:12px; margin:20px auto 0px;}
+
+.award {width:75%; height:auto; text-align:center; margin:20% auto 0px;}
+.award th {color:#f1ae2b; border-bottom:1px dotted #fff; font-size:17px; height:60px;}
+.award > .tdw2 {width:100%;}
+.award td {color:#fff; border-bottom:1px dotted #fff; height:40px; font-size:12px;}
+
+.btbox {margin:40px auto 0px; display:flex; flex-wrap:wrap; width:75%; justify-content:flex-start;}
+
+.btbox > button {margin:4px 5px; padding:5px 10px; background-color:#333; color:#fff; border:1px solid #fff; font-size:12px;}
+
+.sns {width:60%; height:100px; display:flex; justify-content:space-around; margin:30px 15px  0px;}
+.sns > .facebook > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .twitter > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .youtube > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .instargram > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+
+.groggery {width:60%; height:50px; background-color:#f1ae2b; display:flex; justify-content:center; align-content:center; font-size:15px; font-weight:bold; margin:10px 20px 0px; color:#2b474a; text-align:center; padding:4.5% 1%;}
+
+.history {width:70%; height:300px; margin:40px auto 0px;}
+.history tr:first-of-type {font-weight:bold; font-size:17px;}
+.history td {border-bottom:1px dotted #fff; color:#fff; height:50px; text-align:center; font-size:12px;}
+
+
+footer {width:100%; height:400px; background-color:#000;}
+footer > .boxx {width:350px; height:300px; padding-top:2%;}
+.bbox {justify-content:center; align-items:center; padding:2%;}
+.boxx > .mbox > h6 {color:#fff; color: #fff; margin-bottom:35px; font-size: 18px; font-weight: 700; line-height:1.5; margin-top:30px; font-family: "Poppins",Arial,sans-serif; }
+.boxx >  p {color: rgba(255,255,255,.7); margin-top:0; margin-bottom: 1rem; font-size:14px; padding-right:20%; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; width:180px; height:160px;}
+.boxx > .mmbox {padding-left:5px; width:100px; padding-top:20px;}
+.boxx > .mmbox > ul {display:flex; float:left; margin-left:-50px;}
+.boxx > .mmbox > ul > li {padding:0 5%;}
+.boxx > .mmbox > ul > li > a {width:40px; height:40px; display:block;} 
+.boxx > .mmbox > ul > li > a > span {font-size:20px; padding-bottom:-10px;}
+
+
+footer > .boxx1 { justify-content:center; align-items:center;}
+.boxx1 > .mbox1 > h6 {color:#fff; margin-bottom:20px; font-size:18px; font-weight:700; line-height:1.5;  font-family: "Poppins",Arial,sans-serif; width:250px; margin-left:38px;}
+.boxx1 > .mmbox1 {width:250px;}
+.boxx1 > .mmbox1 > ul > li {display:flex!important;}
+.boxx1 > .mmbox1 > ul > li > span {width:100%; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; color:rgba(255,255,255,.7);}
+
+.boxx2 > .mbox2 > h6 {color:#fff; margin-bottom:40px; font-size:18px; font-weight:700; line-height:1.5; margin-top:0; font-family: "Poppins",Arial,sans-serif;}
+.boxx2 > .mmbox2 > a > img {width:100px; height:100px;}
+.boxx2 > .mmbox3 > a > img {width:100px; height:100px;}
+
+.boxx3 {padding:0 2%;}
+.boxx3 > .mbox3 > h6 {color:#fff; margin-bottom:30px; font-size:18px; font-weight:700; line-height:1.5; margin-top:0; font-family: "Poppins",Arial,sans-serif; width:200px;}
+.boxx3 > .mmbox4 > p {color:rgba(255,255,255,.7); margin-top:0; margin-bottom:1rem; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; width:200px;}
+.form1 > .text11 {font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:700; font-size:16px; color:rgba(255,255,255,.7)!important; background:rgba(255,255,255,.1)!important; height: 52px!important; text-align: center!important; margin-bottom: .5rem!important; border:1px solid rgba(255,255,255,.4); border:none; width:300px;}
+.form1 > .text11 > input { background: transparent!important; color: rgba(255,255,255,.7)!important; font-size:16px; border-radius:0;}
+.form1 > .px-3 {color:#fff!important; font-size:16px; background:#c8a97e!important; border:none!important; border-radius:2px; width:300px; display:block; cursor:pointer; height:52px!important; box-shadow:none!important; padding-left:1rem!important; padding-right:1rem!important; font-weight:400; padding:.375rem .75rem; line-height:1.5;}
+
+ .overlay {position:absolute; top: 0; bottom: 0; left: 0; right: 0; background:#000; opacity: .7; height:420px;}
+
+ .top {width:100%; background-image:url("img/slider.jpg"); height:420px; background-size:cover;}
+
+ .nav {width:100%; height:70px; border-bottom:1px solid rgba(255,255,255,.1); padding-bottom:10px; background:transparent!important; position:absolute; top:0px; left:0; right:0; z-index:3; padding:0; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-flow: row nowrap; justify-content: flex-start;}
+
+  .nav > .nav1 {display:flex; justify-content:center; align-items: center;
+    -webkit-box-pack: justify; justify-content: space-between; width:100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; max-width:1070px; padding-top:0; }
+  .nav > .nav1 > .b {border:none; color:rgba(255,255,255,.5)!important; cursor:pointer; padding-right:0; text-transform:uppercase; font-size:16px; letter-spacing:.1em; outline:none; display:none;}
+  .b {padding:.25rem .75rem; line-height:1; background-color:transparent; border-radius:.25rem; display:none;}
+  button, [type="button"], [type="reset"], [type="submit"] {-webkit-appearance: button;}
+ 
+  
+  .nav > .nav1 > h1 > a {text-decoration:none; font-weight:900; font-size:20px; display:inline-block; padding-top: .3125rem; padding-bottom: .3125rem; margin-right: 1rem; line-height: inherit; white-space: nowrap; background-color: transparent; color:#fff; font-family: 'Poppins', sans-serif;}
+
+  .nav > .nav1 > .nav2  {-webkit-box-orient: horizontal; -webkit-box-direction: normal; 
+    flex-direction: row; margin-left: auto!important; display:flex; padding-left:0; margin-bottom:0; list-style:none; margin-top:0; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 40px; color:#fff; text-decoration:none; background-color: transparent; width:60%; opacity:1;}
+
+  
+  .nav > .nav1 > .nav2 > ul {text-decoration:none; font-family: sans-serif; cursor:pointer;}
+  .nav > .nav1 > .nav2 > li {display:flex; margin:0 1%; font-weight:300; cursor:pointer;}
+  .nav > .nav1 > .nav2 > li > a { text-decoration:none; font-size: 14px; padding-top: .8rem; padding-bottom: .8rem; padding-left: 20px; padding-right: 20px; font-weight: 400; color: #fff; opacity: 1!important; cursor:pointer;}
+  .nav > .nav1 > .nav2 > .mm > a {color:#c8a97e; font-family: sans-serif; cursor:pointer;}
+  .nav > .nav1 > .nav2 > .nn > a {background-color:#c8a97e; border-radius:10px; font-family: sans-serif; width:125px; cursor:pointer;}
+
+ .top2 {color:#fff; opacity:.8; margin-top:30px; font-size:15px; width:100%; height:50px; font-family:"Poppins", Arial, sans-serif; text-align:center; padding:2%; padding-left:15%; width:100%; height:300px;}
+ .top2 > h1 {margin-right:20%}
+ .top2 > .textbox {display:flex; padding-left:35%; margin-left:0;}
+ .top2 > .textbox > p {font-family:"Poppins", Arial, sans-serif; font-size:14px; font-weight:600;}
+ .top2 > .textbox > span {font-family:"Poppins", Arial, sans-serif; font-size:14px; color:#c8a97e; font-weight:600;}
+ .top2 > .text > p {font-family:"Poppins", Arial, sans-serif; font-size:14px; width:60%; height:100px; text-align:center; margin-left:10%; padding:2%; font-weight:600;}
+
+ .star {width:100%; height:300px; justify-content:space-around; align-items:center;}
+ .star > .star1 {width:100%; height:80%; text-align:center; display:flex; flex-direction:column; justify-content:center; align-items:center;}
+ .star > .star1 > h2 {width:100%; height:30px; color:#c8a97e; text-align:center; padding:4%; font-family:'Great Vibes', cursive; font-weight:600; font-size:20px;}
+ .star > .star1 > h3 {width:100%; height:30px; color:#000; text-align:center; font-weight:600; font-size:30px; font-family:"Poppins", Arial, sans-serif;}
+ .star > .star1 > .starbox {width:5%; border-top:4px double #666; margin:20px 0 0 0px;}
+ .star > .star1 > p {width:40%; height:100px; font-size:14px; color:#666; margin:30px auto 0px;}
+
+ .wrap2 {width:100%; height:auto; display:flex; justify-content: flex-start; align-content:flex-start; flex-wrap:wrap; padding-bottom:5%;}
+ .wrap2 > .part {width:25%; height:2200px; display:flex; flex-wrap:wrap; padding:0 10px;}
+ .wrap2 > .part > .part1 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part1 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part1 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part1 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part1 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part2 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part2 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part2 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part2 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part2 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part3 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part3 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part3 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part3 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part3 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part4 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part4 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part4 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part4 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part4 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+ .wrap2 > .part > .part5 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-end; align-content:flex-start; line-height:180%; margin: 0 0 0 10px;}
+ .wrap2 > .part > .part5 > h3 {color:#2b474a; font-size:15px; line-height:150%;}
+ .wrap2 > .part > .part5 > span {width:100%; text-align:end; color:#666; font-size:12px; line-height:200%; margin:10px auto 0px;}
+ .wrap2 > .part > .part5 > .icon1 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon2 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon3 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+ .wrap2 > .part > .part5 > .icon4 > img  {content:" "; background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:10px; height:10px;}
+
+
+.part2 {width:40%; height:auto; margin:0 0 0 3%; display:flex; flex-wrap:wrap;}
+.part2 > .mbox {width:100%; height:20%; display:flex;  flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left;}
+.part2 > .mbox > .box {width:100%; height:40%; background-image:url(img/food2.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:10px 0 0 0px;}
+
+
+.part2 > .mbox2 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left; }
+.part2 > .mbox2 > .box2 {width:100%; height:40%; background-image:url(img/food4.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox2 > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox2 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox2 > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:10px 0 0 0px;}
+.part2 > .mbox3 {width:100%; height:400px; margin:0 1% 9% 3%;}
+.part2 > .mbox3 > .box3 {width:100%; height:45%; background-image:url(img/food3.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox3 > h3 {margin:20px auto 0px; color:#2b474a; }
+.part2 > .mbox3 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox3 > button {width:30%; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:20px 0 0 0px;}
+
+
+.part2 > .mbox4 {width:100%; height:20%; display:flex; flex-wrap:wrap; justify-content:flex-start; align-content:flex-start; text-align:left;}
+.part2 > .mbox4 > .box4 {width:100%; height:40%; background-image:url(img/food1.jpg); background-repeat:no-repeat; background-position:center; background-size:100%;}
+.part2 > .mbox4 > h3 {margin:20px auto 0px; color:#2b474a; text-align:left; width:100%;}
+.part2 > .mbox4 > p {color:#666; font-size:13px; width:85%; margin:10px 0 0 0px;}
+.part2 > .mbox4 > button {width:100px; color:#fff; border:1px solid #fff; background-color:#2b474a; padding:5px 10px; margin:20px 0 0 0px;}
+
+.wine {width:100%; height:20%; display:flex; justify-content:center; align-content:center; flex-wrap:wrap;}
+.wine > .vbox {width:100%; height:25%; display:flex;}
+.wine > .vbox > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine1.jpg); background-size:60% 100%; width:20%;}
+.wine > .vbox > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox2 {width:100%; height:25%; display:flex;}
+.wine > .vbox2 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine2.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox2 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox2 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox2 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox2 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox3 {width:100%; height:25%; display:flex;}
+.wine > .vbox3 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine3.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox3 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox3 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox3 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox3 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+
+.wine > .vbox4 {width:100%; height:25%; display:flex;}
+.wine > .vbox4 > .wineimgbox {background-repeat:no-repeat; background-position:center; background-image:url(img/wine4.jpg); background-size:60% 100%; width:20%; }
+.wine > .vbox4 > .winetextbox {width:70%; height:90%; padding: 2%;}
+.wine > .vbox4 > .winetextbox > .winedottbox {display:flex; align-items:center; width:100%; height:50%; margin:10px 0 0 0;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .hh4 {height:60%; font-size:0.8vmax; width:30%; color:#2b474a;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .dottbox {width:47%; height:50%; border-top:1px dashed #666; margin:5% 0 0 0;}
+.wine > .vbox4 > .winetextbox > .winedottbox > .pricebox {width:60px; height:64%; border:1px dashed #666; text-align:center; display:flex; justify-content:center; align-items:center; margin:-3px 0 0 0px; color:#a40d22; font-weight:bold; font-size:0.8vmax;}
+.wine > .vbox4 > .winetextbox > p {font-size:11px; color:#666; line-height:200%; width:100%;}
+
+.partbox3 {width:20%; height:1850px; margin:0% 0 0 3%; display:flex; justify-content:center; flex-wrap:wrap; align-content:flex-start; background-color:#333; border-radius:0;}
+.partbox3 > .search {display:flex; flex-flow:row wrap; width:80%; height:80px; align-items:center; justify-content:center; margin:50px auto 0;}
+.partbox3 > .search  input {background-color:#333; border:none; width:75%; height:41px; border-top-left-radius:20px; border-bottom-left-radius:20px; padding:20px; outline:none; border:1px solid #fff;}
+.partbox3 > .search  button {height:41px; width:20%; border-top-right-radius:20px; border-bottom-right-radius:20px; display:block; border:none; cursor:pointer; outline:none; background-color:#333; border:1px solid #fff;}
+.partbox3 > .search  button  img {width:50%; height:50%;}
+.partbox3 > .parson {width:95%; height:400px; display:flex; justify-content:center; flex-wrap:wrap; text-align:center; align-content:flex-start; margin:40px auto 0px; padding:2% 5%;}
+.partbox3 > .parson > .pimg {border-radius:50%; overflow:hidden; height:200px; width:85%;}
+.partbox3 > .parson > .pimg > img {width:100%; height:100%; transform:scale(1.2);}
+.partbox3 > .parson > h3 {color:#fff; font-size:20px; margin:30px auto 0px;}
+.partbox3 > .parson > span {color:#666; width:80%; font-size:15px; letter-spacing:-1px; margin:20px auto 0px;}
+.partbox3 > .parson > p {color:#666; width:90%; font-size:12px; margin:20px auto 0px;}
+
+.award {width:75%; height:auto; text-align:center; margin:20% auto 0px;}
+.award th {color:#f1ae2b; border-bottom:1px dotted #fff; font-size:17px; height:60px;}
+.award > .tdw2 {width:100%;}
+.award td {color:#fff; border-bottom:1px dotted #fff; height:40px; font-size:12px;}
+
+.btbox {margin:40px auto 0px; display:flex; flex-wrap:wrap; width:75%; justify-content:flex-start;}
+
+.btbox > button {margin:4px 5px; padding:5px 10px; background-color:#333; color:#fff; border:1px solid #fff; font-size:12px;}
+
+.sns {width:60%; height:100px; display:flex; justify-content:space-around; margin:30px 15px  0px;}
+.sns > .facebook > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .twitter > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .youtube > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+.sns > .instargram > img {background-size:contain; background-repeat:no-repeat; background-position:center; cursor:pointer; width:40px; height:40px; padding:10%;}
+
+.groggery {width:60%; height:50px; background-color:#f1ae2b; display:flex; justify-content:center; align-content:center; font-size:15px; font-weight:bold; margin:10px 20px 0px; color:#2b474a; text-align:center; padding:4.5% 1%;}
+
+.history {width:70%; height:300px; margin:40px auto 0px;}
+.history tr:first-of-type {font-weight:bold; font-size:17px;}
+.history td {border-bottom:1px dotted #fff; color:#fff; height:50px; text-align:center; font-size:12px;}
+
+.wrap3 {display:none;}
+
+
+
+
+
+footer {width:100%; height:400px; background-color:#000;}
+footer > .boxx {width:350px; height:300px; padding-top:2%;}
+.bbox {display:flex; justify-content:center; align-items:center; padding:2%;}
+.boxx > .mbox > h6 {color:#fff; color: #fff; font-size: 18px; font-weight: 700; line-height:1.5; font-family: "Poppins",Arial,sans-serif; padding-top:40px;}
+.boxx >  p {color: rgba(255,255,255,.7); margin-top:0; margin-bottom: 1rem; font-size:14px; padding-right:20%; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; width:180px; height:160px;}
+.boxx > .mmbox {padding-left:5px; width:100px; padding-top:20px; margin-top:100px;}
+.boxx > .mmbox > ul {display:flex; float:left; margin-left:-50px;}
+.boxx > .mmbox > ul > li {padding:0 5%;}
+.boxx > .mmbox > ul > li > a {width:40px; height:40px; display:block;} 
+.boxx > .mmbox > ul > li > a > span {font-size:20px; padding-bottom:-10px;}
+
+
+footer > .boxx1 { justify-content:center; align-items:center;}
+.boxx1 > .mbox1 > h6 {color:#fff; margin-bottom:20px; font-size:18px; font-weight:700; line-height:1.5;  font-family: "Poppins",Arial,sans-serif; width:250px; margin-left:38px;}
+.boxx1 > .mmbox1 {width:250px;}
+.boxx1 > .mmbox1 > ul > li {display:flex!important;}
+.boxx1 > .mmbox1 > ul > li > span {width:100%; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; color:rgba(255,255,255,.7);}
+
+.boxx2 > .mbox2 > h6 {color:#fff; margin-bottom:40px; font-size:18px; font-weight:700; line-height:1.5; margin-top:0; font-family: "Poppins",Arial,sans-serif;}
+.boxx2 > .mmbox2 > a > img {width:100px; height:100px;}
+.boxx2 > .mmbox3 > a > img {width:100px; height:100px;}
+
+.boxx3 {padding:0 2%;}
+.boxx3 > .mbox3 > h6 {color:#fff; margin-bottom:30px; font-size:18px; font-weight:700; line-height:1.5; margin-top:0; font-family: "Poppins",Arial,sans-serif; width:200px;}
+.boxx3 > .mmbox4 > p {color:rgba(255,255,255,.7); margin-top:0; margin-bottom:1rem; font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:400; width:200px;}
+.form1 > .text11 {font-family: "Poppins",Arial,sans-serif; line-height:2; font-weight:700; font-size:16px; color:rgba(255,255,255,.7)!important; background:rgba(255,255,255,.1)!important; height: 52px!important; text-align: center!important; margin-bottom: .5rem!important; border:1px solid rgba(255,255,255,.4); border:none; width:300px;}
+.form1 > .text11 > input { background: transparent!important; color: rgba(255,255,255,.7)!important; font-size:16px; border-radius:0;}
+.form1 > .px-3 {color:#fff!important; font-size:16px; background:#c8a97e!important; border:none!important; border-radius:2px; width:300px; display:block; cursor:pointer; height:52px!important; box-shadow:none!important; padding-left:1rem!important; padding-right:1rem!important; font-weight:400; padding:.375rem .75rem; line-height:1.5;}

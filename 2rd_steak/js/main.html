@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<style>
+* {margin:0; box-sizing:border-box;}
+ul,ol,li {list-style:none;}
+
+body {font-family: "Poppins", Arial, sans-serif;background:#000; font-size: 17px; line-height: 2; font-weight: 400; color: #666666; margin: 0; text-align: left;}
+
+.top {position: absolute; top: 0; left: 0; right: 0; z-index: 3; background: rgba(255,255,255,.05)!important; color: rgba(255,255,255,.5); font-size: 14px;}
+.py-1 {padding-bottom: .25rem!important; padding-top:0.25rem!important;}
+.container {width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
+
+.align-items-center {-webkit-box-align: center!important; align-items: center!important;}
+.d-flex {display: flex!important;}
+.no-gutters {margin-right: 0; margin-left: 0;}
+.row {flex-wrap: wrap;}
+.no-gutters>.col, .no-gutters>[class*="col-"] {padding-right: 0; padding-left: 0;}
+.d-block {display: block!important;}
+.col-md, .col-md-5 {position: relative; width: 100%; padding-left: 15px;}
+.col-lg-12 { position: relative; width: 100%;}
+.container {width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto;
+    margin-left: auto;}
+.pr-4, .px-4 {padding-right: 1.5rem!important;}
+.mr-2 {margin-right: .5rem!important;}
+.justify-content-center {-webkit-box-pack: center!important; justify-content: center!important;}
+.justify-content-end {-webkit-box-pack: end !important; justify-content: flex-end !important;}
+[class^="icon-"], [class*=" icon-"] {font-family: 'icomoon'!important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased;}
+.mb-0 {margin-bottom: 0!important;}
+p {margin-top: 0; }
+.ftco-navbar-light {left: 0; right: 0; z-index: 3;}
+.navbar {display: flex; flex-wrap: wrap; -webkit-box-align: center; align-items: center;
+    -webkit-box-pack: justify; justify-content: space-between;}
+.navbar > .container, .navbar > .container-fluid {display: flex; flex-wrap: wrap; -webkit-box-align: center; align-items: center; -webkit-box-pack: justify; justify-content: space-between;}
+.container {width: 100%; margin-right: auto; margin-left: auto;}
+.navbar-brand {font-weight: 900; font-size: 20px;display: inline-block; padding-top: 0.3125rem; padding-bottom: 0.3125rem; margin-right: 1rem; line-height: inherit;
+    white-space: nowrap;}
+.ftco-navbar-light.scrolled.awake {margin-top: 0; transition: .3s all ease-out;}
+.ftco-navbar-light.scrolled {position: fixed; right: 0; left: 0; top: 0;  background: #fff!important; box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);}
+a {transition: .3s all ease; text-decoration: none; background-color: transparent;}
+.ftco-navbar-light .navbar-toggler {border: none; color: rgba(255,255,255,.5)!important;
+    cursor: pointer; padding-right: 0; text-transform: uppercase; font-size: 16px; letter-spacing: .1em;}
+.navbar-toggler {padding: 0.25rem 0.75rem; line-height: 1; background-color: transparent;
+     border-radius: 0.25rem;}  
+button, [type="button"], [type="reset"], [type="submit"] {-webkit-appearance: button;}
+button, input {overflow: visible;}
+input, button, select, optgroup, textarea { margin: 0; font-family: inherit;}
+.oi {position: relative; top: 1px; display: inline-block; speak: none; font-family: Icons;
+    font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased;}
+.oi:empty:before {width: 1em; text-align: center; box-sizing: content-box;}
+.oi-menu:before {content: '\e09b';}    
+.collapse:not(.show) { display: none;}
+.navbar-collapse {flex-basis: 100%; -webkit-box-flex: 1; flex-grow: 1; -webkit-box-align: center; align-items: center;}
+.ml-auto {margin-left: auto!important;}
+.navbar-nav {display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal;
+    flex-direction: column; padding-left: 0; margin-bottom: 0; list-style: none;}     
+ol, ul { margin-top: 0;}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {font-size: 14px; font-weight: 400;
+    opacity: 1 !important;}
+.nav-link {display: block;}
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {border-radius: 5px;}
+.owl-carousel.home-slider {position: relative; z-index: 0;}
+.owl-carousel .owl-stage-outer {position: relative; overflow: hidden; -webkit-transform: translate3d(0,0,0);}
+.owl-carousel.owl-loaded {display: block;}
+.owl-carousel {width: 100%;}
+.owl-carousel, .owl-carousel .owl-item {-webkit-tap-highlight-color: transparent;}
+.owl-carousel .owl-stage-outer {position: relative; overflow: hidden; -webkit-transform: translate3d(0,0,0);}
+.owl-carousel .owl-stage {position: relative; touch-action: manipulation;}
+.owl-carousel.owl-drag .owl-item {touch-action: none; user-select: none;}
+.owl-carousel .owl-item {opacity: .4;}
+.owl-carousel .owl-animated-in {z-index: 0;}
+.owl-carousel .animated {animation-duration: 1s; animation-fill-mode: both;}
+.owl-carousel .owl-item {min-height: 1px; float: left; -webkit-backface-visibility: hidden;}
+.owl-carousel .owl-item {-webkit-transform: translate3d(0,0,0);}
+.owl-carousel, .owl-carousel .owl-item {-webkit-tap-highlight-color: transparent; position: relative;}
+.fadeIn {animation-name: fadeIn;}
+.owl-carousel.home-slider .slider-item {background-size: cover; background-repeat: no-repeat; position: relative; z-index: 0;}
+.owl-carousel.home-slider .slider-item .overlay {position: absolute; top: 0; bottom: 0;
+    left: 0; right: 0; background: #000; opacity: .7;}
+.owl-carousel.home-slider .slider-item .slider-text {color: #fff;}
+.row {display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;}
+.owl-carousel.home-slider .slider-item .overlay {position: absolute; top: 0; bottom: 0;
+    left: 0; right: 0; background: #000; opacity: .7;}
+.owl-carousel.home-slider .slider-item .slider-text {color: #fff;}
+.ftco-animate { opacity: 0; visibility: hidden;}
+.text-center {text-align: center!important;}
+.col, .col-sm-12, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-12, .col-md, .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12 {position: relative; width: 100%; padding-right: 15px; padding-left: 15px;}
+.fadeInUp {animation-name: fadeInUp;}
+.ftco-animated {animation-duration: .5s; animation-fill-mode: both;}
+.owl-carousel.home-slider .slider-item .slider-text .subheading {font-size: 80px;
+    color: #c8a97e; font-weight: normal; font-family: "Great Vibes",cursive;
+    margin-bottom: 0; line-height: 1;}
+.mb-4 {margin-bottom: 1.5rem!important;}
+.owl-carousel.owl-drag .owl-item { touch-action: none; user-select: none;}
+
+
+</style>
+	  
+</head>
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+  	 <div class="py-1 bg-black top">
+  	  <div class="container">
+  	  	<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+  	  	 <div class="col-lg-12 d-block">
+  	  	  <div clacc="row d-flex">
+  	  	  	<div class="row d-flex">
+  	  	  	 <div class="col-md pr-4 d-flex topper align-items-center">
+  	  	  	  <div class="icon mr-2 d-flex justify-content-center align-items-center">
+  	  	  	  	<span class="icon-phone2">
+  	  	  	  	 </span>
+  	  	  	  	</div>
+  	  	  	  <span class="text">+ 1235 2355 98</span>
+  	  	  	 </div>
+  	  	 <div class="col-md pr-4 d-flex topper align-items-center">
+  	  	  <div class="icon mr-2 d-flex justify-content-center align-items-center">
+  	  	  	<span class="icon-paper-plane">
+  	  	  	 </span>
+  	  	  	</div>
+  	  	  <span class="text">youremail@email.com</span>
+  	  	 </div>
+  	  	<div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+  	  	 <p class="mb-0 register-link">
+  	  	  <span>Open hours:</span>
+  	  	  <span>Monday - Sunday</span>
+  	  	  <span>8:00AM - 9:00PM</span>
+  	  	 </p>
+  	  	</div>
+  	  </div>
+  	 </div>
+  	</div>
+  </div>
+ </div>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+ <div class="container">
+ 	<a class="navbar-brand" href="#">Feliciano</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+ 	<span class="oi oi-menu"></span>
+ 	 Menu
+ 	</button>
+ 	<div class="collapse navbar-collapse" id="ftco-nav">
+ 	 <ul class="navbar-nav ml-auto">
+ 	  <li class="nav-item active">
+ 	  	<a href="#" class="nav-link">Home</a></li>
+ 	  <li class="nav-item">
+ 	  	<a href="#" class="nav-link">About</a></li>
+ 	  <li class="nav-item">
+ 	  	<a href="#" class="nav-link">Menu</a></li>
+ 	  <li class="nav-item">
+ 	  	<a href="#" class="nav-link">Stories</a></li>
+ 	  <li class="nav-item">
+ 	  	<a href="#" class="nav-link">Contact</a></li>
+ 	  <li class="nav-item cta">
+ 	  	<a href="#" class="nav-link">Book a table</a></li>
+ 	</ul>
+ </div>
+</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

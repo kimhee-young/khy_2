@@ -1,0 +1,17 @@
+ $.ajax({
+          url: "./json/menu.json",
+          dataType: "json",
+          success : function(data){
+            if(data.length>0){
+              for(var i in data){
+                var title = data[i].title;
+                var price = data[i].price;		
+                var url = data[i].url;
+                $(".box4").eq(i).append( '<a href="#">'+"<img src='img/"+data[i].url+"'/>"+'</a>'); 
+                $(".box4").eq(i).append('<h5><a href="#">'+data[i].title+"</a><h5>");      
+                $(".box4").eq(i).append('<p>'+data[i].price+"</p>");                             
+              }
+            }
+          }
+        });
+      });

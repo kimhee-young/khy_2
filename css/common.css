@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* section 1 : home */
+#fullpage > .section-01 {width:100%; height:950px; position:relative; display:flex; justify-content:space-between; background:linear-gradient(120deg, #2c2c2c, #222222);}
+
+.section-01 #homeleft_grid {width:5%; height:100%; position:relative;}
+.section-01 #homeleft_grid .typo {position: absolute; right: -23px; top: 50%; transform: translateY(-50%); height:320px; z-index: 5;}
+.section-01 #homeleft_grid .typo img {height:100%;}
+
+#about {position:relative; top:3%; left:30%; height:15%; display:flex; justify-content:space-between; align-items: flex-start;}
+#about h3 {color: #fbb03b; font-size:16px; font-weight: 300;}
+#about h3 em {font-style: normal; font-weight: 600;}
+
+.about_icon > ul {display:block;}
+.about_icon > li {border-radius: 100px; cursor: pointer; position: relative; text-align: center; margin-bottom: 8px; z-index: 3; display:block;}
+.about_icon > li a {width: 40px; height: 40px; display:flex; justify-content: center; align-items: center; color: #fff; font-size: 22px; transition: all 0.3s; }
+.about_icon > li:hover a {color:#777;}
+
+.burble {display: none;}
+.burble li {position: absolute; top: 10px; left: 120px; transform: translateX(-50%); width: 140px; background-color: #ece627; color: #333; font-size: 12px; font-weight: 400; text-align: center; line-height: 20px; border-radius: 100px;}
+
+/* Typing */
+.box {width:100%; height:950px; border-radius:5px; overflow:hidden;}
+.wave {opacity:.4; position:absolute; top:30%; left:41%; background:#ece627; width:800px; height:800px; margin-left:-250px; margin-top:-250px; transform-origin:50% 48%; border-radius:43%; animation:drift 3000ms;}
+.wave.-three {animation:drift 5000ms;}
+.wave.-two {animation:drift 7000ms infinite linear; opacity:.4; background:yellow;}
+.section section-01 .box:after {content:''; display:block; left:0; top:0; width:100%; height:100%; background:linear-gradient(to bottom, rgba(#e8a,1), rgba(#def,0) 80%, rgba(white,.5)); z-index:11; transform:translate3d(0,0,0);}
+.text_box {position:absolute; left:0; top:38%; width:100%; z-index:1; line-height:20px; text-align:center; transform:translate3d(0.0.0); color:white; text-transform:uppercase; letter-spacing:.4em; font-size:45px; text-indent: .3em;}
+.typing-txt ul {list-style:none; display:none;}
+
+.typing {display: inline-block; position:absolute; left:44%; top:450px; width:210px; z-index:1; line-height:20px; text-align:center; transform:translate3d(0.0.0); color:white; text-transform:uppercase; letter-spacing:.4em; font-size:20px; text-indent: .3em;} 
+
+.blink {animation: blink 0.5s infinite; font-size: 2.5rem;}
+
+@keyframes cursor{ 0%{border-right: 1px solid #fff} 50%{border-right: 1px solid #000}  100%{border-right: 1px solid #fff} }
+
+@keyframes blink {  to {    opacity: 0;  }}
+
+@keyframes drift {  from { transform: rotate(0deg); }  from { transform: rotate(360deg); } }
+
+/* section 2 : 프로젝트1 */
+#fullpage > .section-02 {width:100%; height:100%; background-color:rgb(239,219,178,0.2); margin:0 auto;}
+.section-02 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #947555; letter-spacing: 0.5px;}
+.section-02 p {font-size:13px;} 
+
+/* section 3 : 프로젝트2 */
+#fullpage > .section-03 {width:100%; margin: 0 auto; background-color: #eee;}
+.section-03 h2 {width: 100%; font-size: 26px; font-weight: 900; color:#5e1dfd; letter-spacing: 0.5px;}
+.section-03 p {font-size:13px;} 
+
+.section-03 .mobile {width:235px; height:480px; position: absolute; top:45%; left:41%; display: block; transform: translateX(-50%); z-index:5; background-image: url(../img/mobile_frame.png); background-size: 100% 100%;}
+.section-03 .mobile_box {width: 225px; height:475px; position: absolute; top:50%; left: 50.6%; transform: translate(-50%,-50%); border-radius: 28px; overflow: hidden;}
+.section-03 .mobile_box ul li {width: 225px; height:650px;}
+.section-03 .mobile_box ul li img {width: 100%; height: auto;}
+
+
+/* section 4 : 프로젝트3 */
+#fullpage > .section-04 {width: 100%; margin: 0 auto; background-color: rgb(239,219,178,0.2);}
+.section-04 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #0c4e4a; letter-spacing: 0.5px;}
+.section-04 p {font-size:13px;}
+
+.section-04 .pofomobile {width:235px; height:450px; position: absolute; top:48%; left:41%; display: block; transform: translateX(-50%); z-index:5; background-image: url(../img/mobile_frame.png); background-size:100% 100%;}
+.section-04 .pofomobile_box {width: 225px; height:440px; position: absolute; top:50%; left: 50.6%; transform: translate(-50%,-50%); border-radius: 28px; overflow: hidden;}
+.section-04 .pofomobile_box ul li {width: 225px; height:500px;}
+.section-04 .pofomobile_box ul li img {width: 100%; height: auto;}
+
+/* section 5 : 프로젝트4 */
+#fullpage > .section-05 {width: 100%; margin: 0 auto; background-color: #eee;}
+.section-05 h2 {width: 100%; font-size: 26px; font-weight: 900; color: #4b0082; letter-spacing: 0.5px;}
+.section-05 p {font-size:13px;}
+
+/* section 6 : About Me */
+.last_wrap {width: 100%; height: 100%; margin: 0 auto; padding:0;  position: relative; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center; background:linear-gradient(120deg, #2c2c2c, #222222);}
+.last_wrap > .wrap {width:80%; height:650px; display:flex; background:#ddd; border-top-right-radius:50px; border-bottom-left-radius:50px;}
+.last_wrap > .wrap > .me { width:15%; height:auto; padding: 50px 0 0 250px;}
+.last_wrap > .wrap > .me > h1 {font-size: 35px; margin:0; color: #000;}
+
+.contact {width: 250px; height: 300px;  margin:0px;}
+.contact > h3 {margin: 0 0 20px 0; font-size: 20px; color: #000;}
+.contact > h3 > span {font-size: 14px; }
+.photo {width: 160px; height: 200px; margin: 70px 0 20px 0px; overflow: hidden;}
+.photo > img {width:100%; height:auto;}
+
+.address_sub {width: 560px; height: 50px;  position: relative; margin: 20px 0 0 0; }
+.address {display: none;}
+
+.balloon {position:relative; padding: 9px 20px; background-color: skyblue; border-radius: 10px; float: left; }
+.balloon:first-child {z-index: 0;}
+.balloon:nth-child(2) {z-index: 1; top: 0; left: -135px;}
+.balloon:nth-child(3) {z-index: 2; top: 0; left: -250px;}
+.balloon:nth-child(4) {z-index: 3; top: 0; left: -325px;}
+
+.balloon h4 { text-align:center; font-size: 12px;}
+.balloon h4 > span {font-size: 11px;}
+
+.balloon:after { border-top: 10px solid skyblue; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 0px solid transparent; content:""; position:absolute; top:30px; left:20px;}
+
+
+/*프로필 정보 table*/
+table { font-size: 14px; color: #000;}
+table tr {line-height: 22px;}
+table th {float: left; margin: 0 10px 0 0; }
+
+
+.bg_box {width: 65%; height: 40%;  padding: 150px 0 0 0;  position: relative;}
+.bg_box > h3 {font-size: 16px; color:#fff; position: absolute; top: 60%; left: 5%;}
+.bg_box > img {width: 80%; height: 90%; }
+
+.career {width:100%; height:100%;  display: flex; color: #fff; padding:160px 100px;}
+
+.bold {margin: 0 15px 0 0; font-weight: normal;}
+.career > .box {width: 40%; height: 75%;}
+.career > .box > ul {padding:10px 0 60px 0; font-size:13.5px; color:#000;}
+.career > .box > ul > li {padding:5px 0;}
+.career > .box > h3 {margin: 0 0 10px 0; width: 30%; color:#000; position: relative; font-size:18px; text-align:left; border-bottom: 1px solid #000;}
+
+
+/*skill*/
+.graph  { width: 90%; list-style: none; }
+.graph li { position: relative; padding: 1px 0; white-space:nowrap; margin:5px 0;}
+.graph li span  { display: inline-block; position: relative; height: 20px; line-height: 18px; background: linear-gradient( to left, #ece627, #1b3a07);  padding:0 10px; color: #fff; border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
