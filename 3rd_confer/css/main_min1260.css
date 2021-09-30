@@ -10,7 +10,7 @@
 
 
 		nav {width:62%; height: 60px; }
-		nav > ul {display: flex; margin-bottom:0;}
+		nav > ul {display: flex;}
 		nav > ul > li {padding:20px 25px; font-family: 'Poppins', sans-serif;}
 		nav > ul > li:first-of-type > a {color:#df42b1; }
 		nav > ul > li > a {color: #fff;}
